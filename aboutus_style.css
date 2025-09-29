@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    border: 1px solid red;
+}
+
+#header{
+    border: 1px solid red;
+    color: white;
+
+}
+#header div img{
+    width: 100%;
+    align-items: center;
+}
+#menu{
+    text-align: left;
+    align-items: center;
+}
+#headerupperdiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: black;
+    color: white;
+}
+#headerupperdiv div{
+    width: 30%;
+
+}
+#headerlowerdiv{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* background: radial-gradient(rgba(255, 255, 255, 0.007),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) ,url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-title-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  */
+    background-color: black;
+    color: white;
+    padding:45px 0px;
+}
+a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+
+}
+#navbar{
+    display: none;
+}
+#icons{
+    display: none;
+}
+
+/*  section 2*/
+#sec2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+#sec2 div{
+    padding: 20px;
+    line-height: 25px;
+}
+
+#sec2 div p{
+font-size: 30px;
+line-height: 30px;
+}
+/*  section 3*/
+#sec3{
+    margin: 15px;
+}
+#sec3 div img{
+    width: 100%;
+}
+
+/*  section test*/
+#test{
+    background: radial-gradient(rgba(255, 255, 255, 0.007),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) ,url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-title-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+#test div{
+    padding: 20px;
+}
+
+/*  section numbers*/
+#numbers{
+    text-align: center;
+    padding: 100px 0px;
+    margin: 0px 15px;
+    line-height: 25px
+
+}
+#numbers div{
+    margin: 20px 0px;
+}
+
+/*  section contact*/
+#secc{
+    background-color: yellow;
+    color: black;
+    padding: 50px 0px;
+}
+#secc div{
+    margin: 0px 15px;
+    padding: 30px 0px;
+}
+#seccbtn{
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: 0px;
+
+    background-color: brown;
+}
+
+
+/* footer start*/
+
+#footer1{
+    padding-top: 50px;
+   background: radial-gradient(rgba(255, 255, 255, 0.007),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) ,url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-title-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    color: white;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#emailid{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    padding: 20px;
+}
+#footer2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+}
+#footer2 div{
+    margin: 8px 0px;
+}
+#fupper div{
+    margin-top: 50px;
+}
+#flower div{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#finfo{
+    line-height: 30px;
+    font-size: 15px;
+}
+#finfo h4{
+width: 100%;
+}
+#pageid,#finfo{
+    text-align: center;
+}
+#footer2icons i{
+    margin: 10px;
+}
+
+#flogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#flogos div{
+    width: 10%;
+}
+
+/* tablet view started  */
+@media only screen and (min-width:768px){
+
+    #headerlowerdiv{
+        padding: 70px;
+    }
+
+    #headerlowerdiv h1{
+        font-size: 80px;
+    }
+
+
+    #sec2main{
+        margin-top: 90px;
+    }
+    #sec2 div p{
+        margin: 50px 100px;
+    }
+    
+    #sec3 div{
+        margin: 50px 100px;
+        line-height: 25px;
+    }
+
+    #numbers{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #numbers div div{
+        width: 80%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    #numbersitems{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #secc div{
+        width: 80%;
+        margin: 0px 50px;
+    }
+
+    #fpages{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #fpages div {
+        margin  :0px -200px;
+    }
+
+    #flogos div{
+        margin: 0px -300px;
+    }
+    #footer2{
+        padding-top: 50px;
+    }
+    #footer2 div{
+        padding: 10px 0px;
+    }
+
+}
+
+
+/* laptop view started */
+@media only screen and (min-width:1024px){
+    #headermain{
+        background-color: black;
+    }
+        #menu{
+        display: none;
+    }
+    #navbar{
+        display: inline;
+        justify-content: space-evenly
+    }
+    #icons{
+        display:inline ;
+    }
+
+    #sec3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #sec3 div{
+        width: 35%;
+    }
+    #sec3 div img{
+        width: 100%;
+    }
+    
+    #test{
+        padding: 120px 0px;
+        align-items: center;
+    }
+    #test div{
+        width: 50%;
+        margin-left: 340px;
+        padding: 50px 0px;
+    }
+
+    #secc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #secc div{
+        width: 40%;
+        padding: 20px;
+    }
+    #seccbtndiv{
+        text-align: right;  
+      }
+
+      #footer1 div div{
+        width: 40%;
+        margin-left: 400px;
+        padding-bottom: 10px;
+      }
+
+      #footer2 ,#fpages,#flogos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      #fcopy{
+        align-content: center;
+      }
+      #fpages div{
+        margin: 50px 20px;
+      }
+      #flogos div{
+        margin: 50px 5px;
+      }
+}

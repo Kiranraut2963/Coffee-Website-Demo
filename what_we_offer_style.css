@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    border: 1px solid red;
+}
+#header{
+    border: 1px solid green;
+    color: white;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    text-align: right;
+}
+#upperdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#icons{
+    margin: 0px 10px;
+    text-align: right;
+}
+#navbar,#icons{
+    display: none;
+}
+#upperdiv{
+    background-color: white;
+    height: 20%;
+}
+#upperdiv div img{
+    width: 145px;
+    height: 50px;
+    margin-right: 80px;
+}
+#lowerdiv{
+    background-color: red;
+    background: radial-gradient(rgba(255, 255, 255, 0.007),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) ,url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-title-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    padding-bottom: 100px;
+}
+
+
+#sec2{
+    margin-top: 30px;
+    text-align: center;
+    margin: 50px 15px;
+}
+
+#coffetypes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#coffetypes div{
+    width: 80%;
+    text-align: center;
+    margin: 25px 10px;
+
+}
+#secimgtxt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#secimgtxt div{
+    width: 100%;
+}
+#secimgtxt div img{
+    width: 100%;
+}
+#imgtext{
+    background: radial-gradient(rgba(255, 255, 255, 0.353),rgba(255, 255, 255, 0.211),rgba(255, 255, 255, 0.184)) ,url("C:\Users\KIRAN\Downloads\clients-img-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    line-height: 30px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#secimgonly{
+    display: flex;
+flex-wrap: nowrap;
+
+}
+#secimgonly div{
+    width: 100%;
+    padding: 70px 0px;
+}
+#secimgonly div img{
+    width: 100%;
+}
+
+
+/* /* footer started css * /*/
+
+#footer1{
+    padding-top: 50px;
+    background: radial-gradient(rgba(255, 255, 255, 0.007),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) ,url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-title-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    color: white;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#emailid{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    padding: 20px;
+}
+#footer2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+}
+#footer2 div{
+    margin: 8px 0px;
+}
+#fupper div{
+    margin-top: 50px;
+}
+#flower div{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#finfo{
+    line-height: 30px;
+    font-size: 15px;
+}
+#finfo h4{
+width: 100%;
+}
+#pageid,#finfo{
+    text-align: center;
+}
+#footer2icons i{
+    margin: 10px;
+}
+
+#flogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#flogos div{
+    width: 10%;
+}
+
+
+/* tablet section started*/
+
+@media only screen and (min-width:768px) {
+#upperdiv div img{
+    width: 145px;
+    height: 50px;
+    margin-right:300px;
+}
+
+#lowerdiv{
+    padding-bottom: 280px;
+}
+#sec2{
+    padding: 100px;
+}
+#coffetypes{
+    align-items: center;
+}
+#coffetypes div{
+    width: 45%;
+}
+#typesitems{
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+#typesitems div p{
+    width: 100%;
+}
+
+#typesitems div img{
+    width: 70%;
+}
+
+#secimgtxt div{
+    width: 48%;
+    margin: 0px;
+}
+
+
+#typesitems
+
+#secimgonly div{
+    width: 50%;
+    padding: 70px 0px;
+}
+#secimgonly div img{
+    width: 100%;
+}
+
+    #fpages{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #fpages div {
+        margin  :0px -200px;
+    }
+
+    #flogos div{
+        margin: 0px -300px;
+    }
+    #footer2{
+        padding-top: 50px;
+    }
+    #footer2 div{
+        padding: 10px 0px;
+    }
+}
+
+
+
+/* laptop vstarted css */  
+@media only screen and (min-width:1024px){
+
+
+#header{
+    border: 1px solid green;
+    color: black;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    text-align: right;
+}
+#upperdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#icons{
+    margin: 0px 10px;
+    text-align: right;
+}
+#menu{
+    display: none;
+}
+#navbar,#icons{
+    display: inline;
+    color: black;
+}
+#upperdiv{
+    background-color: white;
+       border: 1px solid blue;
+    height: 20%;
+}
+#upperdiv div img{
+    width: 145px;
+    height: 50px;
+    margin-right: 80px;
+}
+#lowerdiv{
+    background: none;
+    padding-bottom: 100px;
+    background-color:white;
+    border: 1px solid   red;
+    padding-bottom: 400px;
+}
+
+#coffetypes div{
+    width: 15%;
+}
+#coffetypes div div{
+    width: 100%;
+}
+#coffetypes div p{
+    width: 100%;
+}
+#secimgtxt div{
+    width: 23%;
+    margin: 0px;
+}
+
+
+
+#footer1 div div{
+        width: 40%;
+        margin-left: 400px;
+        padding-bottom: 10px;
+      }
+
+      #footer2 ,#fpages,#flogos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      #fcopy{
+        align-content: center;
+      }
+      #fpages div{
+        margin: 50px 20px;
+      }
+      #flogos div{
+        margin: 50px 5px;
+      }
+}
