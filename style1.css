@@ -11,7 +11,6 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 align-items: center;
-
 }
 #upperdiv #menu{
 width: 20%;
@@ -451,6 +450,10 @@ width: 100%;
 }
 
 @media only screen and (min-width:1024px) {
+    #upperdiv{
+        position: fixed;
+        background-color: black;
+    }
 #header{
 background-color: black;
 display: flex;

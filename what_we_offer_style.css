@@ -141,6 +141,10 @@ flex-wrap: nowrap;
 }
 }
 @media only screen  and (min-width:1024px){
+        #upperdiv{
+        position: fixed;
+        background-color: black;
+    }
     #header #lowerdiv {
         padding: 100px 0px;
     }

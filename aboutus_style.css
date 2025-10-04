@@ -267,6 +267,10 @@ width: 30%;
 }
 
 @media only screen and (min-width:1024px){
+        #upperdiv{
+        position: fixed;
+        background-color: black;
+    }
 #header{
 background-color: black;
 display: flex;
